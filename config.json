@@ -1,0 +1,17 @@
+{
+  "path": {
+    "actual_keys": "/",
+    "activated_keys": "/"
+  },
+  "extensions": {
+    "actual": ".xml",
+    "activated": ".consumed"
+  },
+  "file_server": {
+    "ip_address": "1.1.1.1",
+    "target_dir": "target_dir",
+    "username": "user",
+    "password": "password",
+    "client_machine_name": "LicenceCounterScript"
+  }
+}
