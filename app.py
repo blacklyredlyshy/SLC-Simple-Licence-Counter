@@ -78,9 +78,10 @@ class Explorer:
             return content
         except Exception as e:
             print(e)
+            return False
         finally:
             conn.close()
-            return False
+
 
 
 class LicenceCounter:
@@ -154,7 +155,7 @@ class GUIApp:
     Application main class.
     """
     params = {
-        'title': 'LicenceCounterScript v0.1A',
+        'title': 'Simple Licence Counter v0.2A',
         'geometry': '325x190+700+400',
         'resizable': False
     }
